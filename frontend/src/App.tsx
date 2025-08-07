@@ -24,7 +24,7 @@ export default function App() {
   }>({
     apiUrl: import.meta.env.DEV
       ? "http://localhost:2024"
-      : "http://localhost:8123",
+      : "http://43.160.193.72:8123",
     assistantId: "agent",
     messagesKey: "messages",
     onUpdateEvent: (event: any) => {
